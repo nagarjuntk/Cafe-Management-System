@@ -25,7 +25,7 @@ if another_order == "Yes":
     item_2=input("Enter the name of second item = ")
     if item_2 in menu:
         order_total +=menu[item_2]
-        print(f"Item {item_2 }has been added to order")
+        print(f"Item {item_2 } has been added to order")
     else:
              print("ordered item {item_2} is not available!")
 
